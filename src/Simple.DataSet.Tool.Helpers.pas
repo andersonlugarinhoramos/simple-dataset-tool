@@ -3,7 +3,7 @@ unit Simple.DataSet.Tool.Helpers;
 interface
 
 uses
-//  Simple.Simple.DataSet.Tool,
+  Simple.Simple.DataSet.Tool,
   System.SysUtils,
   Data.DB;
 
@@ -29,7 +29,7 @@ end;
 
 procedure TSimpleDataSetToolHelper.forEach(procedimento : TProc; filter : string = '');
 begin
-//  TSimpleDataSetTool.forEach(Self, procedimento, filter);
+  TSimpleDataSetTool.forEach(Self, procedimento, filter);
 end;
 
 function TSimpleDataSetToolHelper.inEditMode: Boolean;
